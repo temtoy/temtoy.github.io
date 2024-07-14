@@ -29,11 +29,26 @@ github_username:  temtoy
 
 # Build settings
 # theme: minima
-remote_theme: pages-themes/architect@v0.2.0
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  # - jekyll-remote-theme
 
+# https://github.com/sighingnow/jekyll-gitbook
+remote_theme: sighingnow/jekyll-gitbook
+syntax_highlighter_style: colorful
+# toc:
+#     enabled: true
+#     h_min: 1
+#     h_max: 3
+# collections:
+#   pages:
+#     output: true
+#     sort_by: date
+#     permalink: /:collection/:year-:month-:day-:title:output_ext
+#   others:
+#     output: true
+#     sort_by: date
+#     permalink: /:collection/:year-:month-:day-:title:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default.
