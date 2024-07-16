@@ -21,11 +21,11 @@
 title: J's Tech Note
 email: temtoy.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  J의 기술 관련 노트입니다.
+  J의 기술 노트입니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  temtoy
+# twitter_username: ""
+# github_username:  temtoy
 
 # Build settings
 # theme: minima
@@ -36,10 +36,10 @@ plugins:
 # https://github.com/sighingnow/jekyll-gitbook
 remote_theme: sighingnow/jekyll-gitbook
 syntax_highlighter_style: colorful
-# toc:
-#     enabled: true
-#     h_min: 1
-#     h_max: 3
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
 # collections:
 #   pages:
 #     output: true
